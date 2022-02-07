@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/School files/SIM 150/Game 1/Game-1_Hero-Born-Custom/Arena++
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54947
+Successfully changed project path to: F:/School files/SIM 150/Game 1/Game-1_Hero-Born-Custom/Arena++
+F:/School files/SIM 150/Game 1/Game-1_Hero-Born-Custom/Arena++
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 61.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.10f1 (b15f561b2cef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/School files/SIM 150/Game 1/Game-1_Hero-Born-Custom/Arena++/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002233 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\School files\SIM 150\Game 1\Game-1_Hero-Born-Custom\Arena++\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\School files\SIM 150\Game 1\Game-1_Hero-Born-Custom\Arena++\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 1.992100 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.121900 ms MarkObjects: 1.603200 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Prefabs/Barricade Variant 1 Variant.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1 Variant.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ea456b680ac05c301f46552da998fd') in 0.090945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.395698 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df82d341a1f3ece42aac042d93f4a50d') in 0.018961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.449291 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e84edd67e23b0f418c427951e2128be') in 0.014297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.029480 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1943751f6b5e86c3b647ff51d35fc6ef') in 0.015542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant.prefab
+  artifactKey: Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant.prefab using Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d3116894fdba387c69558db460301') in 0.044508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.441232 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d86b77ced337384df715e2af554a39b') in 0.017632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant.prefab
+  artifactKey: Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant.prefab using Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe3c2c814261d0b7745ed7509afaed4') in 0.014033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.462081 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a8c0de16843b352cfa3bd1cc24e4ee') in 0.016907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant.prefab
+  artifactKey: Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant.prefab using Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f8ae85ec6010a74ef0f995ed376a9') in 0.017116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.329812 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant 1.prefab
+  artifactKey: Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant 1.prefab using Guid(a44a5f6aa5b00824193ccc700da01655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b628b1fe42498594f479370abcdd586') in 0.016959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Models/Prefabs/Barricade Variant.prefab
+  artifactKey: Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/Barricade Variant.prefab using Guid(2bcec57763a6dc246869cd8f3c79a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42063f38c600d03586341a553c5e30') in 0.015128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.790756 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f459d4531e5091cc14696917da2c13') in 0.031153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.135030 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e9db9cdd968381d25f4a2d0629617a') in 0.031264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797871 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8012fe503152f5f0e042c61a176a5dd') in 0.014252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.175740 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e28b66cea00e14afc5589757ac48c6') in 0.030952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.539689 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab16ac8d5936a3d2a53b9305deb113') in 0.028059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.157221 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f8d72932f009bbdb6f75d88fb94e0b') in 0.039898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.366977 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aea134e1d268e02224ed3a732085020') in 0.014497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.499430 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5e8bffa530a24cad68924d467cd20e') in 0.027103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.143774 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc506e7cca84167cee4afaf089a46b8') in 0.048018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.001001 seconds.
+  path: Assets/Models/Prefabs/TriBarricade.prefab
+  artifactKey: Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade.prefab using Guid(fc490ff82eeead14bb3a87fb106aed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2096c845ede0314f12a8495b687537c7') in 0.014965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.052330 seconds.
+  path: Assets/Models/Prefabs/TriBarricade 1.prefab
+  artifactKey: Guid(25ad5f5318aa7764781ab33879182ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Prefabs/TriBarricade 1.prefab using Guid(25ad5f5318aa7764781ab33879182ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f05adbb46d1bfae5b3d5588cb8b696') in 0.018025 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3416.
+Total: 3.957300 ms (FindLiveObjects: 0.455800 ms CreateObjectMapping: 0.235700 ms MarkObjects: 3.218300 ms  DeleteObjects: 0.046600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
