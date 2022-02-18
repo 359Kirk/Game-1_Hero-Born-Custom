@@ -8,7 +8,7 @@ public class PlayerBehavior : MonoBehaviour
     public float rotateSpeed = 75f;
     
     public float jumpVelocity = 5f;
-    public float distanceToGround = 0.1f;
+    public float distanceToGround = 1f;
     public LayerMask groundlayer;
     public GameObject bullet;
     public GameObject topHat;
