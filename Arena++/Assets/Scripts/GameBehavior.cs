@@ -26,23 +26,25 @@ public class GameBehavior : MonoBehaviour
             }
         }
     }
-    private int _playerHP = 10;
+
+    private int _playerHP = 3;
     public int HP
     {
         get { return _playerHP; }
-        set {
+        set
+        {
             _playerHP = value;
-            Debug.LogFormat("Lives: {0}", _playerHP);
-            if(_playerHP <= 0)
+            if (_playerHP <= 0)
             {
-                labelText = "you want another life with that?";
+                labelText = "You want another life with that?";
                 showLossScreen = true;
                 Time.timeScale = 0;
             }
             else
             {
-                labelText = "Ouch...that's gotta hurt.";
+                labelText = "Ouch... that's gotta hurt.";
             }
+            Debug.LogFormat("Lives: {0}", _playerHP);
         }
     }
 

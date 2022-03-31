@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthPickupBehavior : MonoBehaviour
 {
-    
+    public int HealthBoost = 10;
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.name == "Player")
