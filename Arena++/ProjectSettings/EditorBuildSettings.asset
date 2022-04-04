@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d7d7dca44622fc54d8d0fe2342961771
   - enabled: 1
+    path: Assets/Scenes/Medieval/Medieval Stage.unity
+    guid: 0d6cb88cf2fa0c84c88fbafce9c604ec
+  - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: 2065931eb87bb5241b31ab7f7711d312
   m_configObjects: {}

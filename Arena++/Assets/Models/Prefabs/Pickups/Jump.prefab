@@ -56,8 +56,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e92f2d46dc78ffe40bbe738b56d59eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BoostMultiplier: 2
-  BoostSeconds: 5
+  BoostMultiplier: 3
+  BoostSeconds: 15
 --- !u!1001 &2843759398511423120
 PrefabInstance:
   m_ObjectHideFlags: 0
