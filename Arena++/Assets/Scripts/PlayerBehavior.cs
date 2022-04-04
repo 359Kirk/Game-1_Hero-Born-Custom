@@ -34,7 +34,7 @@ public class PlayerBehavior : MonoBehaviour
         _col = GetComponent<CapsuleCollider>();
         _rb = GetComponent<Rigidbody>();
 
-        _gameManager = GameObject.Find("GameManager").GetComponent<GameBehavior>();
+        _gameManager = GameObject.Find("GameBehavior").GetComponent<GameBehavior>();
     }
 
     // Update is called once per frame
@@ -55,7 +55,12 @@ public class PlayerBehavior : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            doShoot = true;
+            if (_gameManager.ammo > 0)
+            {
+                doShoot = true;
+                _gameManager.ammo -= 1;
+            }
+           
         }
     }
 
@@ -100,7 +105,21 @@ public class PlayerBehavior : MonoBehaviour
         return grounded;
     }
 
+    private float jumpMultiplier;
     private float speedMultiplier;
+    public void JumpBoost(float multiplier, float seconds)
+    {
+        jumpMultiplier = multiplier;
+        jumpVelocity *= multiplier;
+        Invoke("EndJumpBoost", seconds);
+    }
+
+    public void EndJumpBoost()
+    {
+        Debug.Log("speed boost ended");
+        jumpVelocity /= jumpMultiplier;
+    }
+
     public void BoostSpeed(float multiplier, float seconds)
     {
         speedMultiplier = multiplier;
@@ -119,9 +138,9 @@ public class PlayerBehavior : MonoBehaviour
         topHat.SetActive(true);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collisioninfo)
     {
-        if (collision.gameObject.name == "Enemy")
+        if (collisioninfo.collider.tag == "Enemy")
         {
             _gameManager.HP -= 1;
         }

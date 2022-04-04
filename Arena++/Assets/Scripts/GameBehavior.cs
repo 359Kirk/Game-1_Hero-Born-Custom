@@ -10,6 +10,7 @@ public class GameBehavior : MonoBehaviour
     public int maxItems = 4;
     public bool showLossScreen = false;
     private int _itemsCollected = 0;
+
     public int Items
     {
         get { return _itemsCollected; }
@@ -27,7 +28,7 @@ public class GameBehavior : MonoBehaviour
         }
     }
 
-    private int _playerHP = 3;
+    private int _playerHP = 10;
     public int HP
     {
         get { return _playerHP; }
@@ -47,6 +48,36 @@ public class GameBehavior : MonoBehaviour
             Debug.LogFormat("Lives: {0}", _playerHP);
         }
     }
+    public void BoostHealth(int boost)
+    {
+        _playerHP += boost;
+        if (_playerHP > 10)
+        {
+            _playerHP = 10;
+        }
+    }
+
+    private int _playerAmmo = 20;
+    public int ammo
+    {
+        get { return _playerAmmo; }
+        set
+        {
+            _playerAmmo = value;
+            if (_playerHP <= 0)
+            {
+                labelText = "Keep Firing";
+            }
+            else
+            {
+                labelText = "Out of Ammo! BREAK CONTACT!";
+            }
+        }
+    }
+    public void AmmoResupply(int boost)
+    {
+        _playerAmmo += boost;
+    }
 
     void RestartLevel()
     {
@@ -57,7 +88,8 @@ public class GameBehavior : MonoBehaviour
     private void OnGUI()
     {
         GUI.Box(new Rect(20,20,150,25), "Player Health: " + _playerHP);
-        GUI.Box(new Rect(20, 50, 150, 25), "Items Collected: " + _itemsCollected);
+        GUI.Box(new Rect(20,45,150,25), "Ammo: " + _playerAmmo);
+        GUI.Box(new Rect(20,70,150,25), "Items Collected: " + _itemsCollected);
         GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height - 50,300,20), labelText);
         if(showWinScreen)
         {

@@ -11,6 +11,9 @@ public class HealthPickupBehavior : MonoBehaviour
         {
             Destroy(this.transform.parent.gameObject);
             Debug.Log("YOU AIN'T DYING ON ME!");
+
+            GameBehavior _gameManager = GameObject.Find("GameBehavior").GetComponent<GameBehavior>();
+            _gameManager.BoostHealth(HealthBoost);
         }
     }
 }
