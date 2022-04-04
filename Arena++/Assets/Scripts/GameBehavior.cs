@@ -10,6 +10,9 @@ public class GameBehavior : MonoBehaviour
     public int maxItems = 4;
     public bool showLossScreen = false;
     private int _itemsCollected = 0;
+    public GameObject WinScreen;
+    public GameObject LoseScreen;
+    public GameObject Minimap;
 
     public int Items
     {
@@ -28,7 +31,7 @@ public class GameBehavior : MonoBehaviour
         }
     }
 
-    private int _playerHP = 10;
+    private int _playerHP = 3;
     public int HP
     {
         get { return _playerHP; }
@@ -51,24 +54,20 @@ public class GameBehavior : MonoBehaviour
     public void BoostHealth(int boost)
     {
         _playerHP += boost;
-        if (_playerHP > 10)
+        if (_playerHP > 3)
         {
-            _playerHP = 10;
+            _playerHP = 3;
         }
     }
 
-    private int _playerAmmo = 20;
+    private int _playerAmmo = 10;
     public int ammo
     {
         get { return _playerAmmo; }
         set
         {
             _playerAmmo = value;
-            if (_playerHP <= 0)
-            {
-                labelText = "Keep Firing";
-            }
-            else
+            if (_playerAmmo <= 0)
             {
                 labelText = "Out of Ammo! BREAK CONTACT!";
             }
@@ -93,17 +92,13 @@ public class GameBehavior : MonoBehaviour
         GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height - 50,300,20), labelText);
         if(showWinScreen)
         {
-            if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100), "YOU WON!"))
-            {
-                RestartLevel();
-            }
+            WinScreen.SetActive(true);
+            Minimap.SetActive(false);
         }
         if (showLossScreen)
         {
-            if(GUI.Button(new Rect(Screen.width / 2 -100, Screen.height / 2 - 50, 200, 100), "You Lose..."))
-            {
-                RestartLevel();
-            }
+            LoseScreen.SetActive(true);
+            Minimap.SetActive(false);
         }
     }
 }

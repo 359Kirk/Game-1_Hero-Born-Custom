@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmmoPickupBehavior : MonoBehaviour
 {
-    public int AmmoPickup = 20;
+    public int AmmoPickup = 10;
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.name == "Player")
