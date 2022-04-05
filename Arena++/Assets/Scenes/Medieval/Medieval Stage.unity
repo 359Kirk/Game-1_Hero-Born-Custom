@@ -604,6 +604,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7918734609596647036, guid: 165e96f5312db5047b419e2dcd575d1b, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: ea74514346e868742846d40142fd98d3, type: 3}
+    - target: {fileID: 7918734609596647036, guid: 165e96f5312db5047b419e2dcd575d1b, type: 3}
       propertyPath: AmmoPickup
       value: 10
       objectReference: {fileID: 0}
@@ -954,6 +958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jump
       objectReference: {fileID: 0}
+    - target: {fileID: 2249458694914485074, guid: 546c47a05169cb34aa8c46c1b7b2e312, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 8ac41dd18a4e55d4d9f3eb72c886ccc1, type: 3}
     - target: {fileID: 2377242435354806651, guid: 546c47a05169cb34aa8c46c1b7b2e312, type: 3}
       propertyPath: m_LocalScale.x
       value: 25
@@ -1536,6 +1544,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6185429634233945782, guid: fecef65ef050e75428b759b2efed858a, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 576f21c980d55d849a16fe4f3c7a76f3, type: 3}
     - target: {fileID: 6185429635507120712, guid: fecef65ef050e75428b759b2efed858a, type: 3}
       propertyPath: m_Name
       value: Item4
@@ -2610,6 +2622,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6185429634233945782, guid: fecef65ef050e75428b759b2efed858a, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 576f21c980d55d849a16fe4f3c7a76f3, type: 3}
     - target: {fileID: 6185429635507120712, guid: fecef65ef050e75428b759b2efed858a, type: 3}
       propertyPath: m_Name
       value: Item
@@ -2842,6 +2858,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6185429634233945782, guid: fecef65ef050e75428b759b2efed858a, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 576f21c980d55d849a16fe4f3c7a76f3, type: 3}
     - target: {fileID: 6185429635507120712, guid: fecef65ef050e75428b759b2efed858a, type: 3}
       propertyPath: m_Name
       value: Item (3)
@@ -2923,6 +2943,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6185429634233945782, guid: fecef65ef050e75428b759b2efed858a, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 576f21c980d55d849a16fe4f3c7a76f3, type: 3}
     - target: {fileID: 6185429635507120712, guid: fecef65ef050e75428b759b2efed858a, type: 3}
       propertyPath: m_Name
       value: Item (2)
@@ -3058,6 +3082,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6185429634233945782, guid: fecef65ef050e75428b759b2efed858a, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 576f21c980d55d849a16fe4f3c7a76f3, type: 3}
     - target: {fileID: 6185429635507120712, guid: fecef65ef050e75428b759b2efed858a, type: 3}
       propertyPath: m_Name
       value: Item (1)
@@ -3478,6 +3506,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7918734609596647036, guid: 165e96f5312db5047b419e2dcd575d1b, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: ea74514346e868742846d40142fd98d3, type: 3}
     - target: {fileID: 7918734611111123938, guid: 165e96f5312db5047b419e2dcd575d1b, type: 3}
       propertyPath: m_Name
       value: Ammo
@@ -4922,6 +4954,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8848784617550475745, guid: 3078290de2fdedc4eb5cdf6e659072d0, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 4918d7c437a6a6c4a8531440dee59f57, type: 3}
     - target: {fileID: 8848784618085782450, guid: 3078290de2fdedc4eb5cdf6e659072d0, type: 3}
       propertyPath: m_Name
       value: Health (1)
@@ -8171,6 +8207,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8848784617550475745, guid: 3078290de2fdedc4eb5cdf6e659072d0, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: 4918d7c437a6a6c4a8531440dee59f57, type: 3}
     - target: {fileID: 8848784618085782450, guid: 3078290de2fdedc4eb5cdf6e659072d0, type: 3}
       propertyPath: m_Name
       value: Health
@@ -8228,6 +8268,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 814960922323357271, guid: 4332e330461ff524bb7b443cde8196fd, type: 3}
+      propertyPath: Particles
+      value: 
+      objectReference: {fileID: 8647217622133695391, guid: a7278a152567ab040bac9838b3ee894b, type: 3}
     - target: {fileID: 1393239047477317194, guid: 4332e330461ff524bb7b443cde8196fd, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.403

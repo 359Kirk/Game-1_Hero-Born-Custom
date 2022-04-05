@@ -6,6 +6,7 @@ public class JumpBoostBehavior : MonoBehaviour
 {
     public float BoostMultiplier = 2.0f;
     public float BoostSeconds = 5.0f;
+    public GameObject Particles;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,6 +14,7 @@ public class JumpBoostBehavior : MonoBehaviour
 
         if (collision.gameObject.name == "Player")
         {
+            GameObject newParticles = Instantiate(Particles, this.transform.position, this.transform.rotation) as GameObject;
             Destroy(this.transform.parent.gameObject);
             Debug.Log("Look Mom I can Fly");
 

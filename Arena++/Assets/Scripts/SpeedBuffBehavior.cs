@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpeedBuffBehavior : MonoBehaviour
 {
+    public GameObject Particles;
     public float BoostMultiplier = 2.0f; 
     public float BoostSeconds = 5.0f;
     private void OnCollisionEnter(Collision collision)
@@ -12,6 +13,7 @@ public class SpeedBuffBehavior : MonoBehaviour
         
         if(collision.gameObject.name == "Player")
         {
+            GameObject newParticles = Instantiate(Particles, this.transform.position, this.transform.rotation) as GameObject;
             Destroy(this.transform.parent.gameObject);
             Debug.Log("GAS!GAS!GAS! I'M GONNA STEP ON THE GAS TONIGHT!");
 
