@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
+    public GameObject settingsUI;
+
     public void QuitGame()
     {
         Debug.Log("quit");
@@ -15,5 +17,14 @@ public class StartGame : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void GameSettings()
+    {
+        settingsUI.SetActive(true);
+    }
+
+    public void Close()
+    {
+        settingsUI.SetActive(false);
+    }
 
 }
